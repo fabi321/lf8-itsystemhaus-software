@@ -1,0 +1,4 @@
+﻿https://lerneprogrammieren.de/git/
+https://www.youtube.com/watch?v=GOX1C1qdSys
+Git proxy Konfiguration:
+git config --global http.proxy http://kjs-04.lan.dd-schulen.de:3128
