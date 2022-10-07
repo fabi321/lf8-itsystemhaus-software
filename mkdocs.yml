@@ -1,3 +1,4 @@
 site_name: LF8-ItSystemhaus-Software
 nav:
   - index.md
+  - deployment_mit_mkdocs.md
