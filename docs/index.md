@@ -1,10 +1,15 @@
-# Hallo Welt
+# Dokumentation IT-Systemhaus-Software
 
-[Tutorial](https://www.youtube.com/watch?v=j8PxqgliIno)
+[Repository](https://github.com/fabi321/lf8-itsystemhaus-software)
 
-## frtggzuhjiko
+## Ablauf
 
-* * fgio
-* fcgvhjuijoop
->Die Bäume sind grün.
-Sdhasdjahskjfhkajsfhiuhfekmdasklmdals und so.
+### Phase 1
+[Use-Case-Diagram] (https://github.com/fabi321/lf8-itsystemhaus-software/blob/main/Use-Case%20Plannung%20Phase%201.pdf)
+### Phase 2
+Git einrichten
+### Phase 3
+[Squenzdiagramm] (https://github.com/fabi321/lf8-itsystemhaus-software/blob/main/Phase3_Seq.pdf)
+### Phase 4
+
+### Phase 5
