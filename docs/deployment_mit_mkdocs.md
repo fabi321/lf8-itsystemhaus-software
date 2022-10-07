@@ -49,3 +49,14 @@ mkdocs serve
 
 Anschließend kann man sich die Dokumentation unter [localhost:8000](http://localhost:8000) ansehen.
 Der Webserver kann durch drücken von Strg+C beendet werden.
+
+## Auf Github-Pages deployen
+
+Github-Pages ist für jedes Repository auf Github verfügbar.
+Um eine MkDocs-Seite über Github-Pages verfügbar zu machen, muss man zuerst den Subbefehl gh-deploy von MkDocs ausführen:
+```
+mkdocs gh-deploy
+```
+
+Anschließend sollte Github automatisch ein Github-Pages Environment hinzufügen, welches die Seite unter `https://<username>.github.io/<repositoryName>` verfügbar machen.
+
