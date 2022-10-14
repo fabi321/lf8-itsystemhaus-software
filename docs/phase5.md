@@ -12,7 +12,7 @@
  - __Vom Gebäudetechniker__: Revit
  - __Vom Außendienst__: X3D
 
-## Untersuchen Sie die Datenformate/Datenquellen im Detail:
+## Untersuchen Sie die Datenformate:
 * Welche Daten werden dargestellt
 * Wie werden Daten in den Datenquellen dargestellt
 * Wie können diese importiert und sinnvoll weiterverarbeitet werden
