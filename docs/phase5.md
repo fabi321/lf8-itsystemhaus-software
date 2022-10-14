@@ -21,6 +21,11 @@
 
 ## Entscheiden Sie, wer die Daten innerhalb der ITSystemHausDD GmbH nutzen und verarbeiten darf.
 
-
+ - Der __Außendienst__, um Raumpläne anzufertigen
+ - Der __Innendienst__, um die eigentliche Planung vorzunehmen
+ - Der __Verkauf__, um das Angebot erstellen zu können
 
 ## Entscheiden Sie sich für ein Datenformat für das Angebot.
+
+PDF
+
