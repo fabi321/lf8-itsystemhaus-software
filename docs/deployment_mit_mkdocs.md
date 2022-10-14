@@ -63,3 +63,25 @@ mkdocs gh-deploy
 
 Anschließend sollte Github automatisch ein Github-Pages Environment hinzufügen, welches die Seite unter `https://<username>.github.io/<repositoryName>` verfügbar machen.
 
+## Optional: Einrichten einer CI-Pipeline
+
+Durch das einrichten einer CI-Pipeline kann man das aufrufen von `mkdocs gh-deploy` automatisieren. Dazu muss man folgenden Inhalt in die Datei `.github/workflows/ci.yml` im Projektverzeichnis schreiben:
+```
+name: ci 
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material 
+      - run: mkdocs gh-deploy --force
+
+```
+
