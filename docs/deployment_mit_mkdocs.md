@@ -42,7 +42,7 @@ mkdocs serve
 ```
 
 !!! note "Befehl konnte nicht gefunden werden"
-	Falls ihr mkdocs installiert habt, es aber fon der git bahsh nicht gefunden werden kann, ist es wahrscheinlich nicht im Pfad enthalten. Für diesen Fall müsst ihr den Befehl `mkdocs` in diesem und weiteren Aufrufen ersetzen durch:
+	Falls ihr mkdocs installiert habt, es aber von der Git Bash nicht gefunden werden kann, ist es wahrscheinlich nicht im PATH enthalten. Für diesen Fall müsst ihr den Befehl `mkdocs` in diesem und weiterem Aufrufen ersetzen durch:
 	```
 	~/AppData/Roaming/Python/Python310/Scripts/mkdocs.exe
 	```
@@ -56,6 +56,9 @@ Github-Pages ist für jedes Repository auf Github verfügbar.
 Um eine MkDocs-Seite über Github-Pages verfügbar zu machen, muss man zuerst den Subbefehl gh-deploy von MkDocs ausführen:
 ```
 mkdocs gh-deploy
+```
+```
+~/AppData/Roaming/Python/Python310/Scripts/mkdocs.exe gh-deploy
 ```
 
 Anschließend sollte Github automatisch ein Github-Pages Environment hinzufügen, welches die Seite unter `https://<username>.github.io/<repositoryName>` verfügbar machen.
