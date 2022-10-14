@@ -6,8 +6,8 @@
 pip install mkdocs mkdocs-material
 ```
 
-!!! note "Verwendung des proxy"
-	In der schule muss python die verwendung des Proxy mittgeteilt werden. Dies geschieht durch die Option --proxy. Der resultierende Befehl sieht also wie folgt aus:
+!!! note "Verwendung des Proxy"
+	In der Schule muss Python die Verwendung des Proxy mittgeteilt werden. Dies geschieht durch die Option --proxy. Der resultierende Befehl sieht also wie folgt aus:
 	```
 	pip --proxy http://kjs-03.lan.dd-schulen.de:3128  install mkdocs mkdocs-material
 	```
@@ -34,15 +34,15 @@ Projektverzeichnis
   \- index.md
 ```
 
-## Dokumentation lokal ansehen
+## Dokumentationen Lokal ansehen
 
-Dazu führt man mkdocs mit dem Unterbefehl serve wie folgt aus
+Dazu führt man mkdocs mit dem Unterbefehl `serve` wie folgt aus
 ```
 mkdocs serve
 ```
 
 !!! note "Befehl konnte nicht gefunden werden"
-	Falls ihr mkdocs installiert habt, es aber von der Git Bash nicht gefunden werden kann, ist es wahrscheinlich nicht im PATH enthalten. Für diesen Fall müsst ihr den Befehl `mkdocs` in diesem und weiterem Aufrufen ersetzen durch:
+	Falls mkdocs installiert ist, es aber von der Git Bash nicht gefunden werden kann, ist es wahrscheinlich nicht im PATH enthalten. Für diesen Fall muss der Befehl `mkdocs` durch folgenden Befehl ersetzt werden:
 	```
 	~/AppData/Roaming/Python/Python310/Scripts/mkdocs.exe
 	```
