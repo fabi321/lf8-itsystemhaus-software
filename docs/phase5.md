@@ -13,10 +13,11 @@
  - __Vom Außendienst__: X3D
 
 ## Untersuchen Sie die Datenformate:
-* Welche Daten werden dargestellt
-* Wie werden Daten in den Datenquellen dargestellt
-* Wie können diese importiert und sinnvoll weiterverarbeitet werden
-* Welche Metainformationen sind zur Datenquelle vorhanden
+| Datemformat | Welche Daten <br>werden dargestellt                                                | Wie werden Daten in <br>den Datenquellen dargestellt                                                                                                                                                                    | Wie können diese Importiert und <br>sinnvoll weiterverarbeitet werden                                            | Welche Metainformationen sind <br>zur Datenquelle vorhanden |
+|-------------|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| .ifc        | - logische Bauwerkstrukturen<br>- zugehörige Eigenschaften<br>- Optische Geometrie | - IfcObjectDefinition beinhaltet die Entitäten<br>- Ifc Relationship beinhaltet die <br>beziehungen zwischen Entitäten<br>- IfcPropertyDefinition beinhaltet die Eigenschaften,<br>die mit den Entitäten verbunden sind | IFC-Dateien werden z.B. von Autodesk, Adobe Acrobat, <br>FME Desktop, CYPECAD, SketchUp und ARCHICAD unterstützt |                                                             |
+| .rvt        | - 2D- und 3D-Modellierung für <br>bauteilorientierte Gebäudemodelle                |                                                                                                                                                                                                                         |                                                                                                                  |                                                             |
+| .x3d        |                                                                                    |                                                                                                                                                                                                                         |                                                                                                                  |                                                             |
 
 ## Entscheiden Sie, wer die Daten innerhalb der ITSystemHausDD GmbH nutzen und verarbeiten darf.
 
