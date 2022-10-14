@@ -19,6 +19,7 @@
 | .rvt        | - 2D- und 3D-Modellierung für <br>bauteilorientierte Gebäudemodelle                |                                                                                                                                                                                                                         |                                                                                                                  |                                                             |
 | .x3d        | - Koordinaten <br>vom Bauteil<br>- Material<br>- Networking und Animationen        |                                                                                                                                                                                                                         |                                                                                                                  |                                                             |
 
+
 ## Entscheiden Sie, wer die Daten innerhalb der ITSystemHausDD GmbH nutzen und verarbeiten darf.
 
  - Der __Außendienst__, um Raumpläne anzufertigen
