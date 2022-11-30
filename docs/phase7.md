@@ -1,6 +1,6 @@
 # Phase 7
 
-##IT-Sicherheitskonzept
+## IT-Sicherheitskonzept
 
 | Datenquelle|TOM|Umsetzung|
 |-----|-----|-----|
