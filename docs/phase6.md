@@ -15,5 +15,5 @@ Schreibrechte implizieren Leserechte
 ## Praktische Umsetung
 
 Implementierung des Rollen und Berechtigungskonzeptes mit SQLite, graphische Oberfläche wird über SQLite Browser realisiert.
-Die Schnittstelle findet über C aufrufe statt.
+Die Schnittstelle findet über C Aufrufe statt.
 
