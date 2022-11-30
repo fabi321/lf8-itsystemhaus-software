@@ -2,9 +2,11 @@
 
 ## Identifizierte Nutzer
 
-- Einkauf
-- Verkauf
-- Innedienst
-- Administrator
+| Nutzer | Rechte |
+|--------|--------|
+| Einkauf |  |
+| Verkauf |  |
+| Innedienst |  |
+| Administrator |  |
 
 
