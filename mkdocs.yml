@@ -3,6 +3,7 @@ nav:
   - index.md
   - deployment_mit_mkdocs.md
   - phase5.md
+  - phase6.md
 theme: material
 markdown_extensions:
   - admonition
