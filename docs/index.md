@@ -14,3 +14,7 @@ Git einrichten, [Github](https://github.com/fabi321/lf8-itsystemhaus-software)
 Dieses wiki was Sie gerade sehen
 ### Phase 5
 [Siehe hier](phase5)
+### Phase 6
+[Siehe hier](phase6)
+### Phase 7
+[Siehe hier](phase7)
