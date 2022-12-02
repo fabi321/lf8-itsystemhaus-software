@@ -5,7 +5,7 @@
 ## Ablauf
 
 ### Phase 1
-[Use-Case-Diagram](https://github.com/fabi321/lf8-itsystemhaus-software/blob/main/Use-Case%20Plannung%20Phase%201.pdf)
+[Use-Case-Diagram](https://github.com/fabi321/lf8-itsystemhaus-software/blob/main/Phase1_Use_Case.pdf)
 ### Phase 2
 Git einrichten, [Github](https://github.com/fabi321/lf8-itsystemhaus-software)
 ### Phase 3
