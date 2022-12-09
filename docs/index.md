@@ -18,3 +18,5 @@ Dieses wiki was Sie gerade sehen
 [Siehe hier](phase6)
 ### Phase 7
 [Siehe hier](phase7)
+### Phase 8
+[Siehe hier](phase8)
