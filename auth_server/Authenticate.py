@@ -25,7 +25,7 @@ class Authenticate:
             vorname: Optional[str] = row[1]
             nachname: Optional[str] = row[2]
             result = cur.execute(
-                'select Gruppen_ID, Name from Benutzergruppe inner join Gruppe using (Gruppen_ID) where Benutzer_ID = ?',
+                'select Gruppen_ID, g.Name from Benutzergruppe inner join Gruppe g using (Gruppen_ID) where Benutzer_ID = ?',
                 (user_id,)
             )
             rows: list[tuple[int, str]] = result.fetchall()
