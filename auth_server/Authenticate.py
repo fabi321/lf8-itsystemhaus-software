@@ -5,7 +5,7 @@ import json
 
 
 class Authenticate:
-    def __int__(self, db_connection: sqlite3.Connection):
+    def __init__(self, db_connection: sqlite3.Connection):
         self.db_connection: sqlite3.Connection = db_connection
 
     def on_get(self, request: falcon.Request, response: falcon.Response):
@@ -16,8 +16,8 @@ class Authenticate:
             return
         cur: sqlite3.Cursor = self.db_connection.cursor()
         result = cur.execute(
-            'select Benutzer_ID, Vorname, Nachname from Benutzer where Benutzer_ID = ? and Passwort = ?',
-            (parameters['user_id'], parameters['passwort'])
+            'select Benutzer_ID, Vorname, Name from Benutzer where Benutzer_ID = ? and Passwort = ?',
+            (parameters['user_id'], parameters['password'])
         )
         row: Optional[sqlite3.Row] = result.fetchone()
         if row:
