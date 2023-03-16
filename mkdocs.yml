@@ -7,6 +7,7 @@ nav:
   - phase7.md
   - phase8.md
   - phase9.md
+  - phase10.md
 theme: material
 markdown_extensions:
   - admonition
