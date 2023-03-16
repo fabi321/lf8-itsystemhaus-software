@@ -21,6 +21,13 @@ Vorbereitung eines Angebots für Softwareentwicklung
 ### Auslieferung
 - Phase 13
 ## Vergleich der Vorgehensmodelle 
+| Modell           | Formell/ Informell | linear/iterative | Kundenbeteiligung (hoch/gering) | Vorteile       | Nachteile                              | Anwendung                                                                                                    |
+|------------------|--------------------|------------------|---------------------------------|----------------|----------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| V-Modell         | Formell            | linear           | gering                          | klare Struktur | aufwendige bei anstehenden  Änderungen | -Einfache kleine oder mittelgroße Softwareprojekte mit klar definierten und unveränderlichen Anforderungen - |
+| Wasserfallmodell | Formell            | linear           | gering                          |                |                                        |                                                                                                              |
+| Spiralmodell     | Formell            | linear           | gering                          |                |                                        |                                                                                                              |
+| Kanban           | Informell          | iterative        | hoch                            |                |                                        |                                                                                                              |
+| Scrum            | Informell          | iterative        | hoch                            |                |                                        |                                                                                                              |
 ## Modell
 ## Rollen Team
 ## Zeitplan  
