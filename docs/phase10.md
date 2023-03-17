@@ -44,5 +44,9 @@ Wir haben uns für Kanban entschieden da wir ein IT-Projekt umsetzen, desweitere
 
 ## Zeitplan  
 
-![Netzwerktopografie](https://raw.githubusercontent.com/fabi321/lf8-itsystemhaus-software/main/Netzwerktopografie.drawio.png)
+![Netzplan.svg](https://raw.githubusercontent.com/fabi321/lf8-itsystemhaus-software/main/Netzplan.svg)
 
+
+
+            
+          
