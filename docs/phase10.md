@@ -44,9 +44,13 @@ Wir haben uns für Kanban entschieden da wir ein IT-Projekt umsetzen, desweitere
 
 ## Zeitplan  
 
-![Netzplan.svg](https://raw.githubusercontent.com/fabi321/lf8-itsystemhaus-software/main/Netzplan.svg)
+![Entwicklungs_Netzplan.svg](https://raw.githubusercontent.com/fabi321/lf8-itsystemhaus-software/main/Entwicklungs_Netzplan.svg)
 
 
+
+
+            
+          
 
             
           
