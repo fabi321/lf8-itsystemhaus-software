@@ -40,7 +40,7 @@ Wir haben uns für Kanban entschieden da wir ein IT-Projekt umsetzen, desweitere
 
 -Dokzumentenersteller & Referent: Natalie Jurtz
 
-- :Daniel Kühnel
+- Redakteur MVZ:Daniel Kühnel
 
 ## Zeitplan  
 
