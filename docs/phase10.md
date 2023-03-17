@@ -28,6 +28,7 @@ Vorbereitung eines Angebots für Softwareentwicklung
 | Spiralmodell     | Formell            | linear           | gering                          |                |                                        |                                                                                                              |
 | Kanban           | Informell          | iterative        | hoch                            |                |                                        |                                                                                                              |
 | Scrum            | Informell          | iterative        | hoch                            |                |                                        |                                                                                                              |
+
 ## Modell
 ## Rollen Team
 ## Zeitplan  
