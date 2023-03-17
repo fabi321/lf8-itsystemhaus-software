@@ -30,5 +30,6 @@ Vorbereitung eines Angebots für Softwareentwicklung
 | Scrum            | Informell          | iterative        | hoch                            |  Hohe Effektivität durch Selbstorganisation              | Kein Gesamtüberblick über die komplette Projektstrecke                                       |       Projekte rund um Softwaresupport und Weiterentwicklung                                                                                                        |
 
 ## Modell
+Wir haben uns für Kanabn entschieden da wir ein IT-Projekt umsetzen, desweiteren sprechen dafür der überschaubare Dokumentationsaufwand und die flexibilität bei der Projektplannung da wir uns entschieden haben agil zuarbeiten. Das Kanaban Board visualisiert
 ## Rollen Team
 ## Zeitplan  
