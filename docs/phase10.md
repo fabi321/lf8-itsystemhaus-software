@@ -33,8 +33,13 @@ Vorbereitung eines Angebots für Softwareentwicklung
 Wir haben uns für Kanban entschieden da wir ein IT-Projekt umsetzen, desweiteren sprechen dafür der überschaubare Dokumentationsaufwand und die Flexibilität bei der Projektplannung da wir uns entschieden haben agil zuarbeiten. Das Kanban Board visualisiert unseren aktuellen Projektfortschritt und schafft Transperenz über offenen Aufgaben. Außerdem können wir flexible die Anforderungen ändern.
 ## Rollen Team
 -Teamleader: Christian Winterlich
+
 -Programmierer: Fabian Wunsch
+
 -Ersteller für Testpläne: Max Ullmann
+
 -Dokzumentenersteller & Referent: Natalie Jurtz
-- ...:Daniel Kühnel
+
+- :Daniel Kühnel
+
 ## Zeitplan  
