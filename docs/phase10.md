@@ -38,9 +38,9 @@ Wir haben uns für Kanban entschieden da wir ein IT-Projekt umsetzen, desweitere
 
 -Ersteller für Testpläne: Max Ullmann
 
--Dokzumentenersteller & Referent: Natalie Jurtz
+-Dokumentenersteller & Referent: Natalie Jurtz
 
--Redakteur MVZ:Daniel Kühnel
+-Redakteur MVC:Daniel Kühnel
 
 ## Zeitplan  
 
