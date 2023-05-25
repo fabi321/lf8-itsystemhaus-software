@@ -40,7 +40,7 @@ Wir haben uns für Kanban entschieden da wir ein IT-Projekt umsetzen, desweitere
 
 -Dokumentenersteller & Referent: Natalie Jurtz
 
--Redakteur MVC:Daniel Kühnel
+-Redakteur MVC & GUI-Prototyp Ersteller:Daniel Kühnel
 
 ## Zeitplan  
 
