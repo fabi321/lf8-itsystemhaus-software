@@ -8,6 +8,9 @@ class Authenticate:
     def __init__(self, db_connection: sqlite3.Connection):
         self.db_connection: sqlite3.Connection = db_connection
 
+    def __del__(self):
+        self.db_connection.close()
+
     def on_get(self, request: falcon.Request, response: falcon.Response):
         parameters: dict[str, str] = falcon.uri.parse_query_string(request.query_string)
         if 'user_id' not in parameters or 'password' not in parameters:

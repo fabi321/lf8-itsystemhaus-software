@@ -8,7 +8,6 @@ from wsgiref.simple_server import make_server
 if __name__ == '__main__':
     api = falcon.API()
     conn = sqlite3.connect('Datenbank.db')
-    authentication_endpoint = Authenticate(conn)
-    api.add_route('/authenticate', authentication_endpoint)
-    with make_server('', 8080, api) as httpd:
+    api.add_route('/authenticate', Authenticate(conn))
+    with make_server('', 8091, api) as httpd:
         httpd.serve_forever()
