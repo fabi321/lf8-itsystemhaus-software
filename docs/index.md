@@ -11,7 +11,7 @@ Git einrichten, [Github](https://github.com/fabi321/lf8-itsystemhaus-software)
 ### Phase 3
 [Sequenzdiagramm](https://github.com/fabi321/lf8-itsystemhaus-software/blob/main/SeqPhase3.pdf)
 ### Phase 4
-Dieses wiki was Sie gerade sehen
+Diese Wiki, welche Sie gerade sehen
 ### Phase 5
 [Siehe hier](phase5)
 ### Phase 6
