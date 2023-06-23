@@ -5,11 +5,11 @@
 ## Ablauf
 
 ### Phase 1
-[Use-Case-Diagram](https://github.com/fabi321/lf8-itsystemhaus-software/blob/main/Phase1_Use_Case.pdf)
+[Use-Case-Diagramm](https://github.com/fabi321/lf8-itsystemhaus-software/blob/main/Phase1_Use_Case.pdf)
 ### Phase 2
 Git einrichten, [Github](https://github.com/fabi321/lf8-itsystemhaus-software)
 ### Phase 3
-[Squenzdiagramm](https://github.com/fabi321/lf8-itsystemhaus-software/blob/main/SeqPhase3.pdf)
+[Sequenzdiagramm](https://github.com/fabi321/lf8-itsystemhaus-software/blob/main/SeqPhase3.pdf)
 ### Phase 4
 Dieses wiki was Sie gerade sehen
 ### Phase 5
