@@ -26,8 +26,8 @@ Vorbereitung eines Angebots für Softwareentwicklung
 | V-Modell         | Formell            | linear           | gering                          | klare Struktur | -sehrteuer und zeitaufwendig | -Projekte, bei denen Störungen und Ausfallzeiten inakzeptabel sind |
 | Wasserfallmodell | Formell            | linear           | gering                          | klare Struktur               |  starker Dokumentationsaufwand                                      |   -Einfache kleine oder mittelgroße Softwareprojekte mit klar definierten und unveränderlichen Anforderungen                                                                                                            |
 | Spiralmodell     | Formell            | linear           | gering                          |  frühzeitige Kundeneinbindung              |  schlechte Parralelisierung von Prozessen                                      |  Projekte mit unklaren Geschäftsanforderungen oder zu anspruchsvollen / innovativen Anforderungen                                                                                                            |
-| Kanban           | Informell          | iterative        | hoch                            |     sehr gute skalierbarkeit           |    nicht für alle Betriebe geeignet                                    |  Projekte rund um Softwaresupport und Weiterentwicklung                                                                                                             |
-| Scrum            | Informell          | iterative        | hoch                            |  Hohe Effektivität durch Selbstorganisation              | Kein Gesamtüberblick über die komplette Projektstrecke                                       |       Projekte rund um Softwaresupport und Weiterentwicklung                                                                                                        |
+| Kanban           | Informell          | iterativ        | hoch                            |     sehr gute skalierbarkeit           |    nicht für alle Betriebe geeignet                                    |  Projekte rund um Softwaresupport und Weiterentwicklung                                                                                                             |
+| Scrum            | Informell          | iterativ        | hoch                            |  Hohe Effektivität durch Selbstorganisation              | Kein Gesamtüberblick über die komplette Projektstrecke                                       |       Projekte rund um Softwaresupport und Weiterentwicklung                                                                                                        |
 
 ## Modell
 Wir haben uns für Kanban entschieden da wir ein IT-Projekt umsetzen, desweiteren sprechen dafür der überschaubare Dokumentationsaufwand und die Flexibilität bei der Projektplannung da wir uns entschieden haben agil zuarbeiten. Das Kanban Board visualisiert unseren aktuellen Projektfortschritt und schafft Transperenz über offenen Aufgaben. Außerdem können wir flexible die Anforderungen ändern.
@@ -38,9 +38,9 @@ Wir haben uns für Kanban entschieden da wir ein IT-Projekt umsetzen, desweitere
 
 -Ersteller für Testpläne: Max Ullmann
 
--Dokumentenersteller & Referent: Natalie Jurtz
+-Dokumentersteller & Referent: Natalie Jurtz
 
--Redakteur MVC & GUI-Prototyp Ersteller:Daniel Kühnel
+-Redakteur MVC & GUI-Prototyp Ersteller: Daniel Kühnel
 
 ## Zeitplan  
 
