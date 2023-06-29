@@ -8,9 +8,9 @@
 
 ## Analysieren Sie die Datenquellen hinsichtlich der Bereitsteller/Orte und möglicher Datenformate in denen diese bereitgestellt werden können.
 
- - __Vom Architekten__: IFC
- - __Vom Gebäudetechniker__: Revit
- - __Vom Außendienst__: X3D
+ - __vom Architekten__: IFC
+ - __vom Gebäudetechniker__: Revit
+ - __vom Außendienst__: X3D
 
 ## Untersuchen Sie die Datenformate:
 | Datenformat | Welche Daten <br>werden dargestellt                                                | Wie werden Daten in <br>den Datenquellen dargestellt                                                                                                                                                                    | Wie können diese importiert und <br>sinnvoll weiterverarbeitet werden                                            | Welche Metainformationen sind <br>zur Datenquelle vorhanden |
@@ -22,9 +22,9 @@
 
 ## Entscheiden Sie, wer die Daten innerhalb der ITSystemHausDD GmbH nutzen und verarbeiten darf.
 
- - Der __Außendienst__, um Raumpläne anzufertigen
- - Der __Innendienst__, um die eigentliche Planung vorzunehmen
- - Der __Verkauf__, um das Angebot erstellen zu können
+ - der __Außendienst__, um Raumpläne anzufertigen
+ - der __Innendienst__, um die eigentliche Planung vorzunehmen
+ - der __Verkauf__, um das Angebot erstellen zu können
 
 ## Entscheiden Sie sich für ein Datenformat für das Angebot.
 
