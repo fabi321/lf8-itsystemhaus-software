@@ -2,6 +2,10 @@ site_name: LF8-ItSystemhaus-Software
 nav:
   - index.md
   - deployment_mit_mkdocs.md
+  - phase1.md
+  - phase2.md
+  - phase3.md
+  - phase4.md
   - phase5.md
   - phase6.md
   - phase7.md
