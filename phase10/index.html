@@ -1,0 +1,787 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../phase9/">
+      
+      
+        <link rel="next" href="../phase11/">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.17">
+    
+    
+      
+        <title>Phase 10 Vorgehensmodell zur Softwareentwicklung auswählen - LF8-ItSystemhaus-Software</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.26e3688c.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#phase-10-vorgehensmodell-zur-softwareentwicklung-auswahlen" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="LF8-ItSystemhaus-Software" class="md-header__button md-logo" aria-label="LF8-ItSystemhaus-Software" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LF8-ItSystemhaus-Software
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Phase 10 Vorgehensmodell zur Softwareentwicklung auswählen
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="LF8-ItSystemhaus-Software" class="md-nav__button md-logo" aria-label="LF8-ItSystemhaus-Software" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    LF8-ItSystemhaus-Software
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Dokumentation IT-Systemhaus-Software
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../deployment_mit_mkdocs/" class="md-nav__link">
+        Docs deployment auf Github-Pages mit mkdocs
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase1/" class="md-nav__link">
+        Phase 1
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase2.md" class="md-nav__link">
+        None
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase3.md" class="md-nav__link">
+        None
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase4.md" class="md-nav__link">
+        None
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase5/" class="md-nav__link">
+        Phase 5
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase6/" class="md-nav__link">
+        Phase 6
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase7/" class="md-nav__link">
+        Phase 7
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase8/" class="md-nav__link">
+        Phase8
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase9/" class="md-nav__link">
+        Phase9
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Phase 10 Vorgehensmodell zur Softwareentwicklung auswählen
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Phase 10 Vorgehensmodell zur Softwareentwicklung auswählen
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#software-lebenszyklus" class="md-nav__link">
+    Software-Lebenszyklus
+  </a>
+  
+    <nav class="md-nav" aria-label="Software-Lebenszyklus">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabeproblem" class="md-nav__link">
+    Aufgabe/Problem
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anforderungsanalyse" class="md-nav__link">
+    Anforderungsanalyse
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analyse-und-entwurf" class="md-nav__link">
+    Analyse und Entwurf
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#implementierung" class="md-nav__link">
+    Implementierung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#test" class="md-nav__link">
+    Test
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auslieferung" class="md-nav__link">
+    Auslieferung
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vergleich-der-vorgehensmodelle" class="md-nav__link">
+    Vergleich der Vorgehensmodelle
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modell" class="md-nav__link">
+    Modell
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rollen-team" class="md-nav__link">
+    Rollen Team
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zeitplan" class="md-nav__link">
+    Zeitplan
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase11/" class="md-nav__link">
+        Phase 11
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../phase12/" class="md-nav__link">
+        Phase12
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#software-lebenszyklus" class="md-nav__link">
+    Software-Lebenszyklus
+  </a>
+  
+    <nav class="md-nav" aria-label="Software-Lebenszyklus">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aufgabeproblem" class="md-nav__link">
+    Aufgabe/Problem
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anforderungsanalyse" class="md-nav__link">
+    Anforderungsanalyse
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analyse-und-entwurf" class="md-nav__link">
+    Analyse und Entwurf
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#implementierung" class="md-nav__link">
+    Implementierung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#test" class="md-nav__link">
+    Test
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auslieferung" class="md-nav__link">
+    Auslieferung
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vergleich-der-vorgehensmodelle" class="md-nav__link">
+    Vergleich der Vorgehensmodelle
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modell" class="md-nav__link">
+    Modell
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rollen-team" class="md-nav__link">
+    Rollen Team
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zeitplan" class="md-nav__link">
+    Zeitplan
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="phase-10-vorgehensmodell-zur-softwareentwicklung-auswahlen">Phase 10 Vorgehensmodell zur Softwareentwicklung auswählen</h1>
+<h2 id="software-lebenszyklus">Software-Lebenszyklus</h2>
+<h3 id="aufgabeproblem">Aufgabe/Problem</h3>
+<p>Vorbereitung eines Angebots für Softwareentwicklung</p>
+<h3 id="anforderungsanalyse">Anforderungsanalyse</h3>
+<ul>
+<li>Phase 1</li>
+<li>Phase 2</li>
+</ul>
+<h3 id="analyse-und-entwurf">Analyse und Entwurf</h3>
+<ul>
+<li>Phase 3</li>
+<li>Phase 4</li>
+<li>Phase 5</li>
+<li>Phase 7</li>
+<li>Phase 8</li>
+<li>Phase 10</li>
+</ul>
+<h3 id="implementierung">Implementierung</h3>
+<ul>
+<li>Phase 6</li>
+<li>Phase 9</li>
+<li>Phase 11</li>
+</ul>
+<h3 id="test">Test</h3>
+<ul>
+<li>Phase 12</li>
+</ul>
+<h3 id="auslieferung">Auslieferung</h3>
+<ul>
+<li>Phase 13</li>
+</ul>
+<h2 id="vergleich-der-vorgehensmodelle">Vergleich der Vorgehensmodelle</h2>
+<table>
+<thead>
+<tr>
+<th>Modell</th>
+<th>formell/informell</th>
+<th>linear/iterativ</th>
+<th>Kundenbeteiligung (hoch/gering)</th>
+<th>Vorteile</th>
+<th>Nachteile</th>
+<th>Anwendung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>V-Modell</td>
+<td>formell</td>
+<td>linear</td>
+<td>gering</td>
+<td>klare Struktur</td>
+<td>sehr teuer und zeitaufwendig</td>
+<td>Projekte, bei denen Störungen und Ausfallzeiten inakzeptabel sind</td>
+</tr>
+<tr>
+<td>Wasserfallmodell</td>
+<td>formell</td>
+<td>linear</td>
+<td>gering</td>
+<td>klare Struktur</td>
+<td>starker Dokumentationsaufwand</td>
+<td>Einfache kleine oder mittelgroße Softwareprojekte mit klar definierten und unveränderlichen Anforderungen</td>
+</tr>
+<tr>
+<td>Spiralmodell</td>
+<td>formell</td>
+<td>linear</td>
+<td>gering</td>
+<td>frühzeitige Kundeneinbindung</td>
+<td>schlechte Parallelisierung von Prozessen</td>
+<td>Projekte mit unklaren Geschäftsanforderungen oder zu anspruchsvollen / innovativen Anforderungen</td>
+</tr>
+<tr>
+<td>Kanban</td>
+<td>informell</td>
+<td>iterativ</td>
+<td>hoch</td>
+<td>sehr gute Skalierbarkeit</td>
+<td>nicht für alle Betriebe geeignet</td>
+<td>Projekte rund um Softwaresupport und Weiterentwicklung</td>
+</tr>
+<tr>
+<td>Scrum</td>
+<td>informell</td>
+<td>iterativ</td>
+<td>hoch</td>
+<td>hohe Effektivität durch Selbstorganisation</td>
+<td>kein Gesamtüberblick über die komplette Projektstrecke</td>
+<td>Projekte rund um Softwaresupport und Weiterentwicklung</td>
+</tr>
+</tbody>
+</table>
+<h2 id="modell">Modell</h2>
+<p>Wir haben uns für das Kanban entschieden, da wir ein IT-Projekt umsetzen; des Weiteren sprechen dafür der überschaubare Dokumentationsaufwand und die Flexibilität bei der Projektplanung, da wir uns entschieden haben agil zu arbeiten. Das Kanban Board visualisiert unseren aktuellen Projektfortschritt und schafft Transparenz über offene Aufgaben. Außerdem können wir flexibel die Anforderungen ändern.</p>
+<h2 id="rollen-team">Rollen Team</h2>
+<ul>
+<li>
+<p>Teamleader: Christian Winterlich</p>
+</li>
+<li>
+<p>Programmierer: Fabian Wunsch</p>
+</li>
+<li>
+<p>Ersteller für Testpläne: Max Ullmann</p>
+</li>
+<li>
+<p>Dokumentersteller &amp; Referent: Natalie Jurtz</p>
+</li>
+<li>
+<p>Redakteur MVC &amp; GUI-Prototyp Ersteller: Daniel Kühnel</p>
+</li>
+</ul>
+<h2 id="zeitplan">Zeitplan</h2>
+<p><img alt="Entwicklungs_Netzplan.svg" src="https://raw.githubusercontent.com/fabi321/lf8-itsystemhaus-software/main/Entwicklungs_Netzplan.svg" /></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.b425cdc4.min.js"></script>
+      
+    
+  </body>
+</html>
